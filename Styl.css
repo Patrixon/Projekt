@@ -11,7 +11,7 @@ p {
 
 .inline {
   display: flex;
-  justify-content: ;
+  justify-content: center;
 }
 
 .text-container {
