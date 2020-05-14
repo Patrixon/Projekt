@@ -1,44 +1,79 @@
-p {
-  margin-top: 5px;
-  color: white;
-  font-weight: bold;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.image-container {
-  padding: 10px;
-  text-align: center;
+.container {
+  width: 100%;
+  height: 100vh;
+  background: #42455a;
 }
-
-.inline {
-  display: flex;
-  justify-content: center;
+.menu ul {
+  display: inline-flex;
+  margin: 50px;
 }
-
-.text-container {
-  display: flex;
-  justify-content: space-between;
-}
-.myButton {
-  line-height: 25px;
-  box-shadow: inset 0px 0px 15px 3px #23395e;
-  background: linear-gradient(to bottom, #2e466e 5%, #415989 100%);
-  background-color: #2e466e;
-  border-radius: 17px;
-  border: 1px solid #1f2f47;
-  display: inline-block;
+.menu ul li {
+  list-style: none;
+  margin: 0 20px;
+  color: #b2b1b1;
   cursor: pointer;
-  color: #ffffff;
-  font-family: Arial;
-  font-size: 15px;
-  padding: 6px 13px;
+}
+.logo img {
+  width: 50px;
+  margin-top: -7px;
+  margin-right: 40px;
+}
+.active {
+  color: #19dafa !important;
+}
+.zaloguj-btn {
+  top: 40px;
+  right: 80px;
+  position: absolute;
   text-decoration: none;
-  text-shadow: 0px 1px 0px #263666;
+  color: #fff;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  background-image: linear-gradient(#42455a, #42455a),
+    radial-gradient(circle at top left, #fd00da, #19d7f8);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
 }
-.myButton:hover {
-  background: linear-gradient(to bottom, #415989 5%, #2e466e 100%);
-  background-color: #415989;
+.zaloguj-btn span {
+  display: block;
+  padding: 8px 22px;
 }
-.myButton:active {
+.banner {
+  width: 80%;
+  height: 70%;
+  top: 25%;
+  left: 130px;
+  position: absolute;
+  color: white;
+}
+.app-text {
+  width: 50%;
+  float: left;
+}
+.app-text h1 {
+  font-size: 43px;
+  width: 640px;
   position: relative;
-  top: 1px;
+  margin-left: 40px;
+}
+.app-text p {
+  width: 650px;
+  font-size: 15px;
+  margin: 30px 0 30px 40px;
+  line-height: 25px;
+  color: #b2b1b1;
+}
+.app-picture {
+  width: 50%;
+  float: right;
+}
+.app-picture img {
+  width: 100%;
+  margin-top: -20px;
+  padding-left: 50px;
 }
