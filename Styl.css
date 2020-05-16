@@ -4,8 +4,7 @@
   box-sizing: border-box;
 }
 .bg {
-  background-image: url("bg.jpg");
-  background-size: cover;
+  background: url("bg.jpg") no-repeat center center fixed;
   width: 100%;
   height: auto;
 }
