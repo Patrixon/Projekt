@@ -41,10 +41,10 @@
 }
 
 /* Add a color to the active/current link */
-.topnav a.active {
+/* .topnav a.active {
   background-color: #328b35;
   color: white;
-}
+} */
 th,
 td {
   padding: 20px;
