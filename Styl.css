@@ -3,77 +3,108 @@
   padding: 0;
   box-sizing: border-box;
 }
-.container {
+.bg {
+  background-image: url("bg.jpg");
+  background-size: cover;
   width: 100%;
-  height: 100vh;
-  background: #42455a;
-}
-.menu ul {
-  display: inline-flex;
-  margin: 50px;
-}
-.menu ul li {
-  list-style: none;
-  margin: 0 20px;
-  color: #b2b1b1;
-  cursor: pointer;
+  height: auto;
 }
 .logo img {
-  width: 50px;
+  width: 35px;
   margin-top: -7px;
-  margin-right: 40px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
-.active {
-  color: #19dafa !important;
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
 }
-.zaloguj-btn {
-  top: 40px;
-  right: 80px;
-  position: absolute;
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
-  color: #fff;
-  border: 2px solid transparent;
-  border-radius: 20px;
-  background-image: linear-gradient(#42455a, #42455a),
-    radial-gradient(circle at top left, #fd00da, #19d7f8);
-  background-origin: border-box;
-  background-clip: content-box, border-box;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: -12px;
 }
-.zaloguj-btn span {
-  display: block;
-  padding: 8px 22px;
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: lavender;
+  cursor: pointer;
+  color: black;
 }
-.banner {
-  width: 80%;
-  height: 70%;
-  top: 25%;
-  left: 130px;
-  position: absolute;
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #328b35;
   color: white;
 }
-.app-text {
-  width: 50%;
-  float: left;
+th,
+td {
+  padding: 20px;
+  text-align: left;
+  border: 2px solid black;
 }
-.app-text h1 {
-  font-size: 43px;
-  width: 640px;
-  position: relative;
-  margin-left: 40px;
-}
-.app-text p {
-  width: 650px;
-  font-size: 15px;
-  margin: 30px 0 30px 40px;
-  line-height: 25px;
-  color: #b2b1b1;
-}
-.app-picture {
-  width: 50%;
-  float: right;
-}
-.app-picture img {
+
+.content {
   width: 100%;
-  margin-top: -20px;
-  padding-left: 50px;
+  height: 950px;
+  margin: 10px;
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+  color: white;
+}
+
+/* .content_1 { 
+  width: 100%;
+  height: 950px;
+  margin: 10px;
+  display: inline-block;
+  text-align: center;
+  color: white;
+  background-color: yellow;
+} 
+.content_2 { 
+  height: 150px;
+  margin: 10px;
+  display: inline-block;
+  text-align: center;
+  color: white;
+  background-color: red;
+ } */
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: grey;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+}
+/* unvisited link */
+a:link {
+  color: yellow;
+}
+
+/* visited link */
+a:visited {
+  color: whitesmoke;
+}
+
+/* mouse over link */
+a:hover {
+  color: green;
 }
