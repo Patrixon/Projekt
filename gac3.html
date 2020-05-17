@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="Styl.css" type="text/css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,39 +14,87 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
         <a class="navbar-brand" href="index.html">Strona Główna</a>
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="#">Postacie<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="postacie.html"
+              >Postacie<span class="sr-only">(current)</span></a
+            >
           </li>
           <li class="nav-item active">
-            <a class="nav-link " href="gac3.html">Gac 3V3</a>
+            <a class="nav-link" href="gac3.html">Gac 3V3</a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Zaloguj</button>
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Zaloguj
+          </button>
         </form>
       </div>
     </nav>
     <div class="bg">
       <div class="container">
         <div class="content"> 
+          <div class="">
+          <h2>Przykładowe składy na GAC 3V3 od Społeczności</h2>
+          <a target="_blank" href="gac3.jpg">
+            <img class="img_1"src="gac3.jpg" alt="Gac składy">
+
+          </a>         
+</div>
+<div class="">
+  <h2>Składy na GAC 5V5 z mojego doświadczenia</h2>   
+          <a target="_blank" href="1.png">
+            <img class="img_1"src="1.png" alt="Gac składy">
+            <a target="_blank" href="2.png">
+              <img class="img_1"src="2.png" alt="Gac składy">
+          </a> </a> 
+          <p>Najłatwiej można się wywalić na składzie z nutem oraz GG. Zdjęcie powyżej</p>
+</div>
         </div>
-        <section>
-          <h1>Witaj</h1>
-        </section>
-       
-        <footer class="footer">
-          <div class="footer-copyright bg-primary text-center py-3">© 2020 Copyright:
-            <a href="mailto:glabik.patryk@gmail.com"> Patrixon</a>
-          </div>
-        </footer>
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-copyright bg-primary text-center">
+        © 2020 Copyright:
+        <a href="mailto:glabik.patryk@gmail.com"> Patrixon</a>
+        <span>&bull; <a data-toggle="tooltip" data-html="true" title="Mój profil" href="https://swgoh.gg/p/926533846/"><img class="bb8" src="bb8.png" alt="Mój profil"></a></span>
+        
+      </div>
+    </footer>
+    <script>
+      $(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
