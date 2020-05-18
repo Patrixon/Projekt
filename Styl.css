@@ -20,14 +20,14 @@
   color: white;
 }
 .bb8 {
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
 }
 .content {
   width: 100%;
   height: auto;
   margin: 10px;
-  padding: 10px;
+  padding: 10px 10px 40px 10px;
   background-color: rgba(237, 237, 237, 0.9);
   text-align: center;
   font-style: ;
@@ -46,13 +46,6 @@ table {
 th,
 td {
   padding: 15px;
-}
-
-.center_row {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
 }
 
 .footer {
@@ -74,7 +67,9 @@ td {
 .img_1:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
-
+body {
+  margin-top: 60px;
+}
 .toonimg {
   width: 100px;
   height: 100px;
